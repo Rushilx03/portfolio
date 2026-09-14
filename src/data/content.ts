@@ -8,7 +8,7 @@ export const profile = {
   phone: "+91-9059830764",
   resumeUrl: "/Rushil_Narendula_Resume.pdf",
   links: {
-    github: "https://github.com/Rushil-narendula",
+    github: "https://github.com/Rushilx03",
     linkedin: "https://www.linkedin.com/in/rushil-krishna-sai-narendula-4a2893323/",
     leetcode: "https://leetcode.com/u/RushilN/",
     codeforces: "https://codeforces.com/profile/rushil3",
@@ -66,7 +66,7 @@ export const experience = [
     role: "Research Intern — Data Systems & Query Workload Analysis",
     org: "Indian Institute of Technology Hyderabad",
     period: "May 2026 – Present",
-    link: { label: "Code", url: "https://github.com/Rushil-narendula/Application-aware-Benchmarking" },
+    link: { label: "Code", url: "https://github.com/Rushilx03/Application-aware-Benchmarking" },
     points: [
       "Replicated and critically evaluated SQLBarber, an LLM-driven SQL workload synthesis pipeline, generating and analyzing 113 synthetic queries against real workloads on the Join Order Benchmark (JOB/IMDB) dataset",
       "Profiled cost distributions across 33 base query templates and found 81.8% (27/33) drifted into unintended bins, exposing a statistical fidelity gap between synthetic and real-world query data",
@@ -94,7 +94,7 @@ export const projects = [
       "Built PCA-based Eigenface dimensionality reduction (450 components, ~95% variance retained), achieving 91.06% accuracy with SVM (RBF kernel) and 83.15% with KNN",
       "Built a FaceNet embedding pipeline with CLAHE and gamma-correction preprocessing to recover facial features under heavy shadow occlusion",
     ],
-    links: [{ label: "Code", url: "https://github.com/Rushil-narendula/face-recognition-ml" }],
+    links: [{ label: "Code", url: "https://github.com/Rushilx03/face-recognition-ml" }],
     featured: true,
   },
   {
@@ -115,7 +115,7 @@ export const projects = [
       "Designed centralized Joi validation middleware and error-handling logic to enforce data integrity across API endpoints",
     ],
     links: [
-      { label: "Code", url: "https://github.com/Rushil-narendula/tourist-app" },
+      { label: "Code", url: "https://github.com/Rushilx03/tourist-app" },
       { label: "Demo", url: "https://tourist-app-xmgv.onrender.com/listings" },
     ],
     featured: true,

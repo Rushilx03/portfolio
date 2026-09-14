@@ -63,16 +63,15 @@ export const skills = [
 
 export const experience = [
   {
-    role: "Research Intern — Data Systems & Query Workload Analysis",
+    role: "Research Intern — Evaluating Custom SQL Query Workload Generators for Database Benchmarking",
     org: "Indian Institute of Technology Hyderabad",
     period: "May 2026 – Present",
     link: { label: "Code", url: "https://github.com/Rushilx03/Application-aware-Benchmarking" },
     points: [
-      "Replicated and critically evaluated SQLBarber, an LLM-driven SQL workload synthesis pipeline, generating and analyzing 113 synthetic queries against real workloads on the Join Order Benchmark (JOB/IMDB) dataset",
-      "Profiled cost distributions across 33 base query templates and found 81.8% (27/33) drifted into unintended bins, exposing a statistical fidelity gap between synthetic and real-world query data",
-      "Designed a custom Query Relative Ratio (QRR) metric and built 10+ interactive dashboards to quantify and visualize per-query prediction error across all 113 query pairs",
-      "Engineered a Python (psycopg2) data pipeline to extract, parse, and diff PostgreSQL EXPLAIN/ANALYZE execution plans at scale, structuring raw query-plan output into analyzable datasets",
-      "Applied Bayesian Optimization (Random Forest and Gaussian Process surrogates) to iteratively refine workload generation parameters across 19 query templates, improving cost-distribution alignment post-refinement",
+      "Studied how realistic synthetic SQL workloads can be generated and evaluated in a principled manner for database benchmarking",
+      "Explored recent workload generation approaches — SQLStorm, RedBench, and SQLBarber — working primarily with SQLBarber as the base framework",
+      "Developed techniques and supporting tooling for evaluating synthetic SQL workloads beyond the original framework, enabling automated analysis and large-scale experimentation",
+      "Gained hands-on exposure to query execution, database benchmarking, and systems research; advised by Dr. Anupam Sanghi, with mentorship from Mayank Yadav and Jaideep Kaler, Dept. of CSE, IIT Hyderabad",
     ],
   },
   {
@@ -135,11 +134,11 @@ export const projects = [
 
 export const competitiveProgramming = {
   summary:
-    "650+ algorithmic problems solved, with contest-tested experience in graph algorithms, dynamic programming, and greedy algorithms.",
+    "680+ algorithmic problems solved, with contest-tested experience in graph algorithms, dynamic programming, and greedy algorithms.",
   stats: [
-    { label: "LeetCode", value: "470+ solved", sub: "Rating 1650+", url: "https://leetcode.com/u/RushilN/" },
+    { label: "LeetCode", value: "500+ solved", sub: "Rating 1650+", url: "https://leetcode.com/u/RushilN/" },
     { label: "Codeforces", value: "180+ solved", sub: "Rating 1056", url: "https://codeforces.com/profile/rushil3" },
-    { label: "Total Problems", value: "650+", sub: "DP · Graphs · Greedy" },
+    { label: "Total Problems", value: "680+", sub: "DP · Graphs · Greedy" },
   ],
 };
 

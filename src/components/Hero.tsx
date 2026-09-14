@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { profile } from "@/data/content";
 
 export default function Hero() {
@@ -5,10 +6,20 @@ export default function Hero() {
     <section id="top" className="mx-auto max-w-6xl px-6 pb-16 pt-16 md:pt-24">
       <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
         <div className="md:col-span-2 rounded-3xl border border-border bg-surface p-8 shadow-sm md:p-12">
-          <p className="mb-3 text-sm font-medium uppercase tracking-widest text-primary">
-            Welcome
-          </p>
-          <h1 className="text-3xl font-semibold leading-tight tracking-tight text-foreground sm:text-4xl md:text-5xl">
+          <div className="flex items-center gap-4">
+            <Image
+              src="/profile_pic.jpeg"
+              alt={profile.name}
+              width={72}
+              height={72}
+              priority
+              className="h-[72px] w-[72px] shrink-0 rounded-full object-cover ring-2 ring-primary-soft"
+            />
+            <p className="text-sm font-medium uppercase tracking-widest text-primary">
+              Welcome
+            </p>
+          </div>
+          <h1 className="mt-4 text-3xl font-semibold leading-tight tracking-tight text-foreground sm:text-4xl md:text-5xl">
             {profile.name}
           </h1>
           <p className="mt-4 text-lg text-foreground-muted">{profile.tagline}</p>
